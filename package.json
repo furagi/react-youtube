@@ -54,7 +54,6 @@
     "compile": "babel src --out-dir dist",
     "prepublish": "npm run compile",
     "lint": "eslint src",
-    "example": "webpack-dev-server --config example/webpack.config.js",
-    "install": "NODE_ENV=production babel ./src --out-dir ./dist --source-maps --copy-files"
+    "example": "webpack-dev-server --config example/webpack.config.js"
   }
 }
